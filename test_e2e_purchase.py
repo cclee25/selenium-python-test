@@ -25,6 +25,7 @@ def test_e2e(browser_instance, test_data):
     product_checkout = Checkout_Item(driver)
     product_checkout.checkout(test_data["country_string"], test_data["selected_country"])
     product_checkout.validate_purchase()
+    print("Edit then commit right in Github")
     time.sleep(5)
 
 
