@@ -5,6 +5,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
+print("QA Engr B added this print at 20:50.")
+
 driver = webdriver.Chrome()
 driver.get("https://rahulshettyacademy.com/loginpagePractise")
 driver.implicitly_wait(5)
