@@ -27,6 +27,7 @@ def test_e2e(browser_instance, test_data):
     product_checkout.validate_purchase()
     print("Edit then commit right in Github")
     print("Added by QA Engr B")
+    print("Added by QA Engr A. Created new branch 'develop'")
     time.sleep(5)
 
 
