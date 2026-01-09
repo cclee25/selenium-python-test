@@ -44,5 +44,6 @@ wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "span[class='promoIn
 
 discounted_amount = float(driver.find_element(By.CSS_SELECTOR, "span[class='discountAmt']").text)
 assert total_amount > discounted_amount
+print("Added by QA Engr B. Pushed updates to branch 'develop'")
 
 time.sleep(5)

@@ -28,6 +28,7 @@ def test_e2e(browser_instance, test_data):
     print("Edit then commit right in Github")
     print("Added by QA Engr B")
     print("Added by QA Engr A. Created new branch 'develop'")
+    print("Added by QA Engr B. Pushed updates to branch 'develop'")
     time.sleep(5)
 
 
