@@ -6,6 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 print("QA Engr A added this print line.")
+print("QA Engr B added this print line.")
 
 #Test data json file location
 file_loc = r"C:\Selenium_Python\data\shop_data.json"
