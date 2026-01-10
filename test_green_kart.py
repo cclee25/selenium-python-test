@@ -49,5 +49,4 @@ action = ActionChains(driver)
 
 time.sleep(5)
 
-print("QA Engr B made this update.")
 
